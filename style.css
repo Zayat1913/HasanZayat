@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+}
+
+#resume {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    position: relative;
+}
+
+.header img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    display: block;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.section {
+    width: 95%;
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+li {
+    list-style-type: circle;
+}
+
+#header{
+    background: #CD5C08;
+    height: 40px;
+}
+
+#dropdown-menu{
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    padding-right: 4px;
+    padding-left: 4px;
+    background: #CD5C08;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.dropdown-content{
+    cursor: pointer;
+    display: none;  /* we took block and inline block */
+    background: #CD5C08;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+    left: 0;
+    font-weight: normal;
+    font-size: medium;
+}
+
+#dropdown-menu li{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    list-style-type: none;
+}
+
+#dropdown-menu ul{
+    margin: 0;
+    padding: 0;
+}
+#dropdown-menu a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+#dropdown-menu:hover .dropdown-content{
+    display: block;
+}
+#dropdown-menu li:hover{
+    background: #b77c57;
+}
+
+.icon {
+    display: inline-block;
+    background: url("Micon.png");
+    width: 30px;
+    background-repeat: no-repeat;
+    height: 30px;
+    vertical-align: middle;
+    background-size: contain;
+}
